@@ -22,4 +22,27 @@ html, body {
 
 body {
     background: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pixel-art {
+    image-rendering: pixelated;
+}
+
+.camera {
+    
+    
+}
+
+/* Setting up the map */
+
+.map {
+    image-rendering: pixelated;
+    background-image: url(../images/CameraDemoMap.png);
+    background-size: 100%;
+    width: calc(13 * var(--grid-cell));
+    height: calc(10 * var(--grid-cell));
+    position: relative;
 }
